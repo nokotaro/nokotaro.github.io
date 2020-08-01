@@ -22,6 +22,8 @@ export default {
   margin: 0.5rem;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   text-decoration: none;
+  border: 0px;
+  background: rgba(100, 100, 100, 0.03);
 
   img {
     position: absolute;
