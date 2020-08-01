@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # STATIC
 
 **This directory is not required, you can delete it if you don't want to use it.**
@@ -33,4 +32,3 @@ $ yarn generate
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
->>>>>>> add all
