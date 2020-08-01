@@ -5,7 +5,7 @@
   */
 
 /*!
- * BootstrapVue Icons, generated from Bootstrap Icons 1.0.0-alpha4
+ * BootstrapVue Icons, generated from Bootstrap Icons 1.0.0-alpha5
  *
  * @link https://icons.getbootstrap.com/
  * @license MIT
@@ -28,6 +28,12 @@
  * vue-no-ssr v1.1.1
  * (c) 2018-present egoist <0x142857@gmail.com>
  * Released under the MIT License.
+ */
+
+/*!
+ * vuex v3.5.1
+ * (c) 2020 Evan You
+ * @license MIT
  */
 
 /*! 
