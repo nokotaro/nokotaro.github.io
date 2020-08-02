@@ -9,7 +9,7 @@ a.card(:href="arg.link", target="_blank")
 <script>
 export default {
   props: ["arg"],
-}
+};
 </script>
 
 <style lang="stylus" scoped>

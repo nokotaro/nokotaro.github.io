@@ -1,15 +1,22 @@
-<template>
-  <div>
-    <header>
-      <nav class="navbar fixed-top navbar-expand-sm bg-dark navbar-dark">
-        <nuxt-link class="navbar-brand" to="/">
-          <img src="icon.png" width="30" height="30" alt /> Portfolio
-        </nuxt-link>
-        <button class="btn btn-sm btn-success" type="button">Top</button>
-        <ul class="navbar-nav mr-auto"></ul>
-      </nav>
-    </header>
-  </div>
+<template lang="pug">
+div
+  header
+    nav.navbar.fixed-top.navbar-expand-sm.bg-dark.navbar-dark
+      nuxt-link.navbar-brand(to="/")
+        img(src="icon.png", width="30", height="30", alt="")
+        |
+        | Portfolio
+      ul.navbar-nav.mr-auto
+        li.nav-item
+          nuxt-link(
+            v-bind:class="[now === 'top' ? 'nav-link active' : 'nav-link']",
+            to="/"
+          ) Top
+        li.nav-item
+          nuxt-link(
+            v-bind:class="[now === 'about' ? 'nav-link active' : 'nav-link']",
+            to="/about"
+          ) About
 </template>
 
 <script>

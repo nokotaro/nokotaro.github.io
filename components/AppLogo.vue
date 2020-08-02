@@ -11,9 +11,15 @@
       .github-link
         a.anchor(href="https://github.com/nokotaro", target="_blank")
           i.
-            <font-awesome-icon :icon="['fas', 'home']" />
+            <font-awesome-icon :icon="['fab', 'github']" />
           span GitHub
 </template>
+
+<script>
+export default {
+  props: ["arg"],
+};
+</script>
 
 <style lang="stylus" scoped>
 .author {
