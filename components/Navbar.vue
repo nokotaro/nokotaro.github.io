@@ -19,10 +19,12 @@ div
           ) About
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from "vue";
+
+export default Vue.extend({
   props: {
     now: String,
   },
-};
+});
 </script>

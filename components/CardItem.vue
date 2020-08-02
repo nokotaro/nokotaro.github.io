@@ -6,10 +6,12 @@ a.card(:href="arg.link", target="_blank")
     .card-desc {{ arg.desc }}
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import Vue from "vue";
+
+export default Vue.extend({
   props: ["arg"],
-};
+});
 </script>
 
 <style lang="stylus" scoped>
