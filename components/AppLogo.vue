@@ -2,7 +2,7 @@
 .author
   .author-container
     .author-avatar
-      img.avatar(src="icon.png")
+      img.avatar(src="~/static/icon.png")
     .author-title
       .namerepo
         .author-name Nokotaro Takeda
