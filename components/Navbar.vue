@@ -3,7 +3,7 @@ div
   header
     nav.navbar.fixed-top.navbar-expand-sm.bg-dark.navbar-dark
       nuxt-link.navbar-brand(to="/")
-        img(src="icon.png", width="30", height="30", alt="")
+        img(src="~/assets/images/icon.png", width="30", height="30", alt="")
         |
         | Portfolio
       ul.navbar-nav.mr-auto

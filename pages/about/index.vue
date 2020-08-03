@@ -4,9 +4,6 @@ main
   header.site-header
     .container
       app-logo
-  section.cards
-    .container
-      .card-list
 </template>
 
 <script lang="ts">
