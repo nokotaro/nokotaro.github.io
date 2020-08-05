@@ -1,0 +1,23 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\taken\\\\Documents\\\\nokotaro.github.io\\\\pages\\\\about\\\\index.vue",
+    "chunkName": "pages/about/index",
+    "_name": "_5e0444e3"
+  },
+  {
+    "name": "project",
+    "path": "/project",
+    "component": "C:\\\\Users\\\\taken\\\\Documents\\\\nokotaro.github.io\\\\pages\\\\project\\\\index.vue",
+    "chunkName": "pages/project/index",
+    "_name": "_a3564752"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\taken\\\\Documents\\\\nokotaro.github.io\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_2a1f2584"
+  }
+]
