@@ -17,6 +17,11 @@ div
             v-bind:class="[now === 'about' ? 'nav-link active' : 'nav-link']",
             to="/about"
           ) About
+        li.nav-item
+          nuxt-link(
+            v-bind:class="[now === 'project' ? 'nav-link active' : 'nav-link']",
+            to="/project"
+          ) Project
 </template>
 
 <script lang="ts">
