@@ -1,4 +1,11 @@
-_nuxt/
-.nuxt/
-dist/
-node_modules/
+# Dependency directories
+node_modules
+
+# nuxt.js build output
+_nuxt
+.nuxt
+200.html
+index.html
+
+# Nuxt generate
+dist
