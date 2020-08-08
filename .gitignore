@@ -1,3 +1,4 @@
-dist/
+_nuxt/
 .nuxt/
+dist/
 node_modules/
