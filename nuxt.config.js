@@ -11,10 +11,10 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
-      }
+        content: process.env.npm_package_description || "",
+      },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
   /*
    ** Customize the progress-bar color
@@ -38,7 +38,8 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     "bootstrap-vue/nuxt",
-    "nuxt-fontawesome"
+    "nuxt-fontawesome",
+    "@nuxtjs/markdownit",
   ],
   /*
    ** Build configuration
@@ -47,23 +48,27 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    extend(config, ctx) {}
+    extend(config, ctx) {},
   },
 
   fontawesome: {
     imports: [
       {
         set: "@fortawesome/free-solid-svg-icons",
-        icons: ["fas"]
+        icons: ["fas"],
       },
       {
         set: "@fortawesome/free-regular-svg-icons",
-        icons: ["far"]
+        icons: ["far"],
       },
       {
         set: "@fortawesome/free-brands-svg-icons",
-        icons: ["fab"]
-      }
-    ]
-  }
+        icons: ["fab"],
+      },
+    ],
+  },
+
+  markdownit: {
+    injected: true,
+  },
 };
