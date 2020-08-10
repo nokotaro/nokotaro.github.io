@@ -22,6 +22,7 @@ export default Vue.extend({
   data() {
     return {
       markdown: `
+# Markdown Test
 # h1 Heading
 ## h2 Heading
 ### h3 Heading

@@ -5,7 +5,7 @@ div
       .container-fluid
         nuxt-link.navbar-brand.mb-0.h1(to="/")
           img.d-inline-block.align-top(
-            src="/images/icon.png",
+            src="/images/favicon.png",
             width="30",
             height="30",
             alt="",

@@ -9,3 +9,5 @@ index.html
 
 # Nuxt generate
 dist
+
+*.log
