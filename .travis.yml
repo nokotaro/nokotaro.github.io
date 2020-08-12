@@ -1,6 +1,7 @@
 language: node_js
 node_js:
-  - "10"
+  - "stable"
+  - "lts/*"
 
 cache:
   directories:
@@ -11,8 +12,8 @@ branches:
     - develop
 
 install:
-  - npm install
-  - npm run generate
+  - yarn install
+  - DEPLOY_ENV=GH_PAGES yarn run generate
 
 script:
   - echo "Skipping tests"
