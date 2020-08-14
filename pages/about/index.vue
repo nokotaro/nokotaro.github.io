@@ -6,7 +6,7 @@ main
       app-logo
   body
     .container
-      .row
+      .row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-3
         .col-sm-4
           .card
             svg.bd-placeholder-img.card-img-top(
