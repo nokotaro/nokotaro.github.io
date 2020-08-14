@@ -9,7 +9,6 @@ main
     .container
       .card-list
         card-item(v-for="p in products", :arg="p", :key="p.title")
-  Helloworld
 </template>
 
 <script lang="ts">
@@ -17,14 +16,12 @@ import Vue from "vue";
 import AppLogo from "~/components/AppLogo.vue";
 import CardItem from "~/components/CardItem.vue";
 import Data from "~/store/data.json";
-import Helloworld from "~/components/Helloworld.vue";
 import Navbar from "~/components/Navbar.vue";
 
 export default Vue.extend({
   components: {
     AppLogo,
     CardItem,
-    Helloworld,
     Navbar,
   },
   asyncData(context: any) {
