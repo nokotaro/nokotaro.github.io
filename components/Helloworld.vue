@@ -97,12 +97,12 @@ export default Vue.extend({
       targets: "#helloworld .lines path",
       strokeDashoffset: [Anime.setDashoffset, 0],
       easing: "easeInOutSine",
-      duration: 500,
+      duration: 5000,
       delay: function (el, i) {
         return i * 250;
       },
       direction: "alternate",
-      loop: true,
+      loop: false,
     });
   },
 });
@@ -121,7 +121,7 @@ h1 {
 
 .st0 {
   fill: none;
-  stroke: #000000;
-  stroke-width: 0.5;
+  stroke: #303030;
+  stroke-width: 0.7;
 }
 </style>
