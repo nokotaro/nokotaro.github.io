@@ -13,6 +13,16 @@
           i.
             <font-awesome-icon :icon="['fab', 'github']" />
           span GitHub
+      .github-link
+        a.anchor(href="https://twitter.com/takenoko_0714", target="_blank")
+          i.
+            <font-awesome-icon :icon="['fab', 'twitter']" />
+          span Twitter
+      .github-link
+        a.anchor(href="https://keybase.io/takenoko", target="_blank")
+          i.
+            <font-awesome-icon :icon="['fab', 'keybase']" />
+          span Keybase
 </template>
 
 <script lang="ts">
