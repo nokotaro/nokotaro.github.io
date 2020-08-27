@@ -23,6 +23,16 @@
           i.
             <font-awesome-icon :icon="['fab', 'keybase']" />
           span Keybase
+      .github-link
+        a.anchor(href="https://keybase.io/takenoko", target="_blank")
+          i.
+            <font-awesome-icon :icon="['fab', 'facebook']" />
+          span Facebook
+      .github-link
+        a.anchor(href="https://keybase.io/takenoko", target="_blank")
+          i.
+            <font-awesome-icon :icon="['fab', 'google']" />
+          span Google
 </template>
 
 <script lang="ts">
