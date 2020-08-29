@@ -26,8 +26,8 @@
       .github-link
         a.anchor(href="https://keybase.io/takenoko", target="_blank")
           i.
-            <font-awesome-icon :icon="['fab', 'facebook']" />
-          span Facebook
+            <font-awesome-icon :icon="['fab', 'mastodon']" />
+          span Mastodon
       .github-link
         a.anchor(href="https://keybase.io/takenoko", target="_blank")
           i.
