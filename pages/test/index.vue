@@ -97,7 +97,7 @@ export default Vue.extend({
       targets: "#helloworld .lines path",
       strokeDashoffset: [Anime.setDashoffset, 0],
       easing: "easeInOutSine",
-      duration: 500,
+      duration: 10000,
       delay: function (el, i) {
         return i * 250;
       },
