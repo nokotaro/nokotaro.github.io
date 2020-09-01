@@ -24,15 +24,10 @@
             <font-awesome-icon :icon="['fab', 'keybase']" />
           span Keybase
       .github-link
-        a.anchor(href="https://keybase.io/takenoko", target="_blank")
+        a.anchor(href="https://fedibird.com/@takenoko", target="_blank")
           i.
             <font-awesome-icon :icon="['fab', 'mastodon']" />
           span Mastodon
-      .github-link
-        a.anchor(href="https://keybase.io/takenoko", target="_blank")
-          i.
-            <font-awesome-icon :icon="['fab', 'google']" />
-          span Google
 </template>
 
 <script lang="ts">
