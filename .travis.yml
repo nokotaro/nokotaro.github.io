@@ -1,10 +1,13 @@
 language: node_js
+os:
+  - linux
+dist: xenial
 node_js:
-  - "stable"
+  - stable
 
 cache:
   directories:
-    - "node_modules"
+    - node_modules
 
 branches:
   only:
@@ -19,7 +22,7 @@ script:
 
 deploy:
   provider: pages
-  skip_cleanup: true
+  strategy: git
   token: $GITHUB_ACCESS_TOKEN
   target_branch: master
   local_dir: dist
