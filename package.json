@@ -19,7 +19,7 @@
     "@fortawesome/vue-fontawesome": "^2.0.0",
     "@nuxtjs/markdownit": "^1.2.10",
     "animejs": "^3.2.0",
-    "bootstrap": "^5.0.0-alpha1",
+    "bootstrap": "^5.0.0-beta2",
     "bootstrap-vue": "^2.16.0",
     "nuxt": "^2.14.4",
     "nuxt-fontawesome": "^0.4.0",
